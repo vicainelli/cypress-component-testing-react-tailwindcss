@@ -20,6 +20,7 @@
   },
   "eslintConfig": {
     "extends": [
+      "plugin:cypress/recommended",
       "react-app",
       "react-app/jest"
     ]
@@ -37,7 +38,11 @@
     ]
   },
   "devDependencies": {
+    "@cypress/react": "^5.9.3",
+    "@cypress/webpack-dev-server": "^1.4.0",
     "autoprefixer": "^9",
+    "cypress": "^8.2.0",
+    "eslint-plugin-cypress": "^2.11.3",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
